@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #222;
+}
+
+nav {
+    background: #3b4a6b;
+    padding: 12px 24px;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background: #e4e8f1;
+}
+
+input, select {
+    margin: 3px;
+    padding: 5px;
+}
+
+button {
+    padding: 6px 12px;
+    border: 0;
+    background: #3b4a6b;
+    color: #fff;
+    cursor: pointer;
+}
+
+.error {
+    color: #b00020;
+}
+
+/* Таблица прокручивается по горизонтали еслм не помещается */
+.table-wrap {
+    overflow-x: auto;
+}
+
+td form {
+    margin: 0;
+}
+
+button {
+    white-space: nowrap;
+}
+
+/* Фуу, с телефонов */
+@media (max-width: 600px) {
+    nav {
+        padding: 10px 12px;
+    }
+
+    main {
+        margin: 0;
+        padding: 12px;
+        border-radius: 0;
+    }
+
+    input, select {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    th, td {
+        padding: 4px;
+        font-size: 14px;
+    }
+}

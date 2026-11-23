@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "book": 4,
+        "reader": 1,
+        "date": "2026-11-23",
+        "returned": null
+    },
+    {
+        "id": 2,
+        "book": 2,
+        "reader": 1,
+        "date": "2026-11-23",
+        "returned": "2026-11-23"
+    },
+    {
+        "id": 3,
+        "book": 2,
+        "reader": 2,
+        "date": "2026-11-23",
+        "returned": "2026-11-23"
+    }
+]
